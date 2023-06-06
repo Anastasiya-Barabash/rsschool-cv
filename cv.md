@@ -8,8 +8,8 @@
 ### At the age of 24, I realized that I stopped developing at work and began to think about a profession that would be interesting to me and where I would constantly receive new knowledge. I am confident that my efforts and ability to work in a team will help me become a successful Frontend developer.
 ---
 ## **Skills:**
+* ### CS
 * ### HTML
-* ### CSS
 ---
 ## **Code example:**
 ```html
