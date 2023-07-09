@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+.header {
+  background-color: #f0ae12;
+  padding: 14px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.list {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.h1 {
+  font-family: "Dancing Script", cursive;
+  flex-grow: 1;
+  font-size: 48px;
+  color: #f0ae12;
+}
+.last_name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  color: black;
+}
+
+.h2 {
+  font-size: 20px;
+  color: #f0ae12;
+  margin: 15px 0;
+}
+.contacts {
+  font-style: italic;
+}
+.avatar {
+  width: 300px;
+  height: 330px;
+  border-radius: 30px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.photo_block {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-top: 10px;
+}
+.about_me_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+.link:hover {
+  transition: color 00ms ease;
+  color: #f0ae12;
+}
+.icon {
+  fill: #f0ae12;
+  width: 28px;
+  height: 28px;
+}
+
+.phone {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #f0ae12;
+  fill: #fff;
+}
+.me_contact {
+  list-style: none;
+  margin: 15px 0;
+}
+.contact_header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.list_skills {
+  list-style: none;
+  line-height: 30px;
+}
+.code {
+  color: #f0ae12;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  background: #f0ae12;
+}
+.git_icon_link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.img_link:hover {
+  height: 28px;
+  border-bottom: solid black 2px;
+}
+
+.img_link {
+  width: 100px;
+  height: 30px;
+  padding-bottom: 3px;
+}
